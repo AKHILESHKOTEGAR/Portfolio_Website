@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+
+    <div class="container">
+        <!--nav bar-->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="log-name">PortFolio</p>
+
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home"class="nav-link ">Home</a>
+                        <div class="circle"></div>
+
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about"class="nav-link ">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects"class="nav-link ">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact"class="nav-link ">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                    
+
+                </ul>
+                <div class="mode">
+                    <div class="moon-sun" id="toogle-switch">
+                        <i class="fa fa-moon" id="moon"></i>
+                        <i class="fa fa-sun" id="sun"></i>
+                    </div>
+                </div>
+                <div class="nav-menu-btn">
+                    <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+                </div>
+            </div>
+
+        </nav>
+        <!--main-->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I'm</p>
+
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                   <div class="text-info">
+                    <p>I'm a Frontend and Java backend developer.</p>
+
+                   </div>
+                   <div class="text-btn">
+                    <button class="hire-btn" onclick="scrollToContact()">Hire Me</button>
+                    <button class="btn" onclick="downloadCV()">Download CV<i class="uil uil-file"></i></button>
+                   </div>
+                   <div class="social_icons">
+                    <div class="icon_circle"></div>
+                    <div class="icon" ><i class="uil uil-instagram"></i></div>
+                    <div class="icon" ><i class="uil uil-linkedin-alt"></i></div>
+                    <div class="icon" ><i class="uil uil-github-alt"></i></div>
+                   </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="images/profile-2.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <!--about us-->
+            <section class="section" id="about">
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure>
+                                <img src="" alt="" class="profile">
+                                
+                                <div class="top-header">
+                                    <h2>About Me</h2>
+                                </div>
+                                <p>Hey there!🙋 I'm Akhilesh Kotegar, a frontend and backend developer based in Bangalore, India. 
+                                 I have a year of experience at Celebto Technologies Pvt Ltd. Currently, I'm pursuing my Bachelor's degree in Information Science and Engineering at MS Ramaiah Institute of Technology. 
+                                 When I'm not coding, you can find me on the football field, trekking🧗, traveling, or experimenting with new recipes in the kitchen🧑‍🍳.</p>
+                            </figure>
+                        </div>
+                    </div>
+                    
+                    <section class="skills">
+                        <div class="skills-header">
+                            <h2>My Skills</h2>
+                        </div>
+                        
+                        <div class="skills-container">
+                          <div class="skill-box">
+                            <img src="icons/java.svg" alt="Java">
+                            <span>Java</span>
+                          </div>
+                          <div class="skill-box">
+                            <img src="icons/github.svg" alt="github">
+                            <span>GitHub</span>
+                          </div>
+                          <div class="skill-box">
+                            <img src="icons/flutter.svg" alt="flutter">
+                            <span>Flutter</span>
+                          </div>
+                          <div class="skill-box">
+                            <img src="icons/python.svg" alt="Python">
+                            <span>Python</span>
+                          </div>
+                          <div class="skill-box">
+                            <img src="icons/linux.svg" alt="Linux">
+                            <span>Linux</span>
+                          </div>
+                          <div class="skill-box">
+                            <img src="icons/aws.svg" alt="AWS">
+                            <span>AWS</span>
+                          </div>
+                          <div class="skill-box">
+                            <img src="icons/mysql.svg" alt="MySQL">
+                            <span>MySQL</span>
+                          </div>
+                          <div class="skill-box">
+                            <img src="icons/javascript (1).svg" alt="JavaScript">
+                            <span>JavaScript</span>
+                          </div>
+                          <div class="skill-box">
+                            <img src="icons/mongodb.svg" alt="MongoDb">
+                            <span>Mongodb</span>
+                          </div>
+                       </div>
+                    </section>
+            <!--project box-->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+               
+<p class="project-info">To add a "See More" functionality to each project box that expands the box when clicked, you can follow these steps:
+
+Add a "See More" button inside each project box.
+Define styles for the expanded view of the project box.
+Implement JavaScript to handle the toggle of the expanded view.
+Here's the updated HTML, CSS, and JavaScript:
+
+HTML:
+
+html
+Copy code>
+</p>
+<div class="project-container">
+    <div class="project-box">
+        <h3>Mobile App Development</h3>
+        <img src="icons/project-1 img.svg" alt="Project-1">
+        <div class="overlay"></div>
+        <div class="description-box">
+            <div class="description-content">
+                <p><u>FrameWorks Used:Flutter,Amazon Web Service, Kotlin, MongoDB, Docker</u></p>
+                <p>• Developed a comprehensive Wine Inventory System app from scratch using Dart.</p>
+                <p>• Integrated barcode and QR code scanning features, with data storage in MongoDB which reduces 70% of manpower.</p>
+                <p>• Optimized backend operations with precision by leveraging AWS services, including API Gateway and Lambda, resulting in a remarkable efficiency boost of 90strategic approach to enhance system performance and scalability.</p>
+                <p>• Adopted kotlin to streamline backend operation, renowned for its reliability and extensive usage in applications optimized database queries.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="project-box">
+
+        <h3>CGPA Calculator</h3>
+        <img src="icons/project-2 img.svg" alt="Project-2">
+        <div class="overlay"></div>
+        <div class="description-box">
+            <div class="description-content">
+                <p><u>Frameworks Used:Python, Streamlit, pandas, Git</u></p>
+                <p>•Developed a user-friendly Streamlit web application leveraging Python for calculating CGPA, offering seamless
+                    navigation and intuitive interface for users.</p>     
+                <p>•Implemented robust backend algorithms to accurately compute CGPA based on inputted grades and credit hours,
+                    ensuring precision and reliability in results.</p>
+                <p>•Designed and deployed the application to a live server, demonstrating proficiency in full-stack development and
+                    deployment processes.</p>
+                <p>•Received positive feedback from users for the simplicity and effectiveness of the CGPA calculation tool, showcasing
+                    strong problem-solving skills and attention to user experience.</p>
+            </div>
+        </div>
+    </div>
+       
+    <div class="project-box">
+        <h3>portfolio Website</h3>
+        <img src="icons/project-3 img.svg" alt="Project-3">
+        <div class="overlay"></div>
+        <div class="description-box">
+            <div class="description-content">
+                <p><u>FrameWorks Used:HTML,CSS, JavaScript</u></p>
+                <p>•Developed a responsive portfolio website utilizing HTML, CSS, and JavaScript to showcase projects, skills, and
+                    experiences effectively to potential employers and clients.</p>
+                <p>•Implemented interactive elements and animations with JavaScript to enhance user engagement and create a visually appealing browsing experience.</p>
+                <p>•Ensured optimal performance and accessibility by employing best practices in coding, including responsive design principles and optimization techniques.</p>
+                <p>•Actively maintained and updated the website to reflect current projects and achievements, demonstrating a commitment to professionalism and continuous improvement in web development skills.
+                </p>
+            </div>
+        </div>
+    </div>
+     </div>
+            </section>
+            
+
+
+            <!--contact box-->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's Work Together</h1>
+                    <span>Do you have any project in mind? Contact me here.</span>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="find-me">
+                            <h2>Find me <i class="uil uil-corner-right-down"></i></h2>
+                        </div>
+                        
+                        <p><i class="uil uil-envelope"></i>Email: AkhilKotegar@gmail.com</p>
+                        <p><i class="uil uil-phone"></i>Phone: 8618139586</p>
+                    </div>
+                    <div class="contact-box">
+                        <div class="contact-form">
+                            <form action="sendEmail.php" method="post" class="contact-form">
+                                <div class="contact-me">
+                                    <h2>Contact Me</h2>
+                                </div>
+                                <div class="form-input">
+                                    <input type="text" class="input-field" name="name" placeholder="Your Name" required>
+                                    <input type="email" class="input-field" name="email" placeholder="Your Email" required>
+                                    <input type="text" class="input-field" name="subject" placeholder="Subject" required>
+                                    <textarea class="input-field" name="message" placeholder="Message" required></textarea>
+                                </div>
+                                <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+        </main>
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer_menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social_icons">
+                <div class="icon" ><i class="uil uil-instagram"></i></div>
+                <div class="icon" ><i class="fa-brands fa-linkedin-in icon"></i></div>
+                <div class="icon" ><i class="uil uil-github"></i></div>
+
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">portfolio</a> - All rights reserved 2024</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <Script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></Script>
+</body>
+</html>
+
+
+
+
+
