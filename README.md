@@ -4,7 +4,7 @@
 This is a simple website showcasing my web development skills using HTML, CSS, and JavaScript.
 
 ## Demo
-You can view a live demo of the website [here](https://example.com).
+You can view a live demo of the website [here]([https://example.com](https://akhileshkotegar.github.io/Portfolio_Website/)).
 
 ## Technologies Used
 - HTML
